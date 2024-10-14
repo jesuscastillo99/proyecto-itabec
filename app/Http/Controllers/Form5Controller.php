@@ -14,6 +14,8 @@ class Form5Controller extends Controller
 {
   public function index()
     {
+      //COMENTARIO
+      $variable=1;
         $usuario = Auth::user();
         $curpId = $usuario->curp;
             $arrayIdCurp = [$curpId];

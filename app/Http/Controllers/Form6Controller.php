@@ -6,14 +6,12 @@ use Illuminate\Http\Request;
 use App\Models\Estado;
 use App\Models\Municipio;
 use App\Models\Localidad;
-use App\Models\Expediente;
-use App\Models\Persona;
-use App\Models\Domicilio;
+
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use GuzzleHttp\Client;
 use SimpleXMLElement;
-use Illuminate\Support\Carbon;
+
 use Illuminate\Support\Facades\Redirect;
 class Form6Controller extends Controller
 {
